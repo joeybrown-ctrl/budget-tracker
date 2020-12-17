@@ -24,13 +24,13 @@
 
   ## Description 
 
-This is a workout tracker app that allows the user to view, create and track daily workouts. The user can log multiple exercises within a workout, as well as tracking the exercise names, types, weight, sets, reps and the duration. The user is given the option of choosing either a resistance or cardio workout. The latter allows the user to track their distance traveled.
+This budget tracking app is a PWA (progressive web application) that allows the user to add expenses and deposits to their budget whether or not they have an internet connection. The user can enter transactions while offline and their offline entries will populate once they are online again.
 
-This app uses a Mongo database using Mongo Atlas with a Mongoose Schema. Routes are handled using Express.
+This app is built using a Mongo database using Mongo Atlas, with IndexedDB on the front end. The routes are handled using Express. This app is deployed to Heroku.
 
   <hr>
 
-![image of workout tracker](https://raw.githubusercontent.com/joeybrown-ctrl/workout-tracker/main/public/Assets/workoutLanding.png)
+![image of budget tracker](https://raw.githubusercontent.com/joeybrown-ctrl/budget-tracker/main/public/budget-tracker.png)
 
 <br>
 
@@ -38,6 +38,7 @@ This app uses a Mongo database using Mongo Atlas with a Mongoose Schema. Routes 
 
 * [Mongoose](https://mongoosejs.com/)
 * [MongoDB](https://www.mongodb.com/)
+* [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 * [Heroku](https://www.heroku.com/)
 * [Node.js](https://nodejs.org/en/about/)
 * [Express](https://expressjs.com/)
